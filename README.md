@@ -1,4 +1,5 @@
 # 🤖 KSHITIJ 2025 BOTS
+#Showcased two robots: **Sand Rover** & **Droid Blitz**
 <p align="center">
   <a href="LICENSE">
     <img src="https://img.shields.io/github/license/ArijitDutta96395/Kshitij-2024-bots" alt="License">
@@ -13,9 +14,9 @@
 
 ## 🏆 Achievements
 
-- ✅ Participated in **KSHITIJ 2025 at IIT Kharagpur**
-- ✅ Showcased two robots: **Sand Rover** & **Droid Blitz**
-- ✅ Designed in-house with custom controllers and wireless modules
+- ✅ SandRover achieved 31st Position in **KSHITIJ 2025 at IIT Kharagpur** also featured in IIT KGP_Clicks.
+- ✅ Droid Blitz acheived 12th Position.
+- ✅ Designed in-house with custom controllers and wireless modules.
 
 ---
 
