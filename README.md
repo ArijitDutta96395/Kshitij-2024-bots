@@ -29,12 +29,12 @@ A compact, semi-autonomous robot tailored for difficult terrain. It uses high-to
 #### 🔩 Key Features:
 - 🛞 Compact: 26.2 cm × 20.6 cm frame
 - 🔋 Powered by 2200mAh LiPo/Li-ion battery
-- 🎮 Controlled via Bluetooth & NRF24L01 module
+- 🎮 Controlled via custom controller with Joystick and NRF24L01 module
 - 🚜 4× Johnson 300 RPM motors for high grip and torque
 - 🧠 Controlled using Arduino Uno and Nano over UART
 - 💸 Built for under ₹6400 with off-the-shelf components
 
-#### 📸 Images:
+#### 📸 Image: Sand Rover with Controller
 <p align="center">
   <img src="images/img2.png" alt="Sand Rover Image" width="400">
 </p>
@@ -53,7 +53,7 @@ Designed for the "Droid Blitz" event, this robot is engineered for seamless navi
 - 🚗 Motors: Johnson 300 RPM & 10 RPM pick-and-place units
 - 🔧 Enhanced with servo motors and water-resistant design
 
-#### 📸 Images:
+#### 📸 Image: Droid Blitz
 <p align="center">
   <img src="images/img3.png" alt="Droid Blitz Image" width="400">
 </p>
@@ -116,6 +116,6 @@ See the [LICENSE](LICENSE) file for more details.
 **Arijit Dutta**  
 📅 **Last Updated:** March 21, 2025
 
-<p align="center">
+<p align="left">
   <img src="images/img1.png" alt="Team Member Image" width="400">
 </p>
