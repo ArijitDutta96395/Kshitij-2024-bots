@@ -1,5 +1,5 @@
 # 🤖 KSHITIJ 2025 BOTS
-#Showcased two robots: **Sand Rover** & **Droid Blitz**
+# Showcased two robots: **Sand Rover** & **Droid Blitz**
 <p align="center">
   <a href="LICENSE">
     <img src="https://img.shields.io/github/license/ArijitDutta96395/Kshitij-2024-bots" alt="License">
