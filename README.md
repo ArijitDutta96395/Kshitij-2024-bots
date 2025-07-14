@@ -1,5 +1,4 @@
 # 🤖 KSHITIJ 2025 BOTS
-
 <p align="center">
   <a href="LICENSE">
     <img src="https://img.shields.io/github/license/ArijitDutta96395/Kshitij-2024-bots" alt="License">
