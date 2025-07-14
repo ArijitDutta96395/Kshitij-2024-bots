@@ -1,95 +1,121 @@
-# 🏎️ Sand Rover – Semi-Autonomous Robot with Custom 11-Channel Controller
+# 🤖 KSHITIJ 2025 BOTS
 
 <p align="center">
   <a href="LICENSE">
-    <img src="https://img.shields.io/github/license/ArijitDutta96395/Sand_Rover" alt="License">
+    <img src="https://img.shields.io/github/license/ArijitDutta96395/Kshitij-2024-bots" alt="License">
   </a>
-  <img src="https://img.shields.io/github/repo-size/ArijitDutta96395/Sand_Rover" alt="Repo Size">
-  <img src="https://img.shields.io/github/last-commit/ArijitDutta96395/Sand_Rover" alt="Last Commit">
-  <img src="https://img.shields.io/github/stars/ArijitDutta96395/Sand_Rover?style=social" alt="Stars">
-  <img src="https://img.shields.io/github/forks/ArijitDutta96395/Sand_Rover?style=social" alt="Forks">
+  <img src="https://img.shields.io/github/repo-size/ArijitDutta96395/Kshitij-2024-bots" alt="Repo Size">
+  <img src="https://img.shields.io/github/last-commit/ArijitDutta96395/Kshitij-2024-bots" alt="Last Commit">
+  <img src="https://img.shields.io/github/stars/ArijitDutta96395/Kshitij-2024-bots?style=social" alt="Stars">
+  <img src="https://img.shields.io/github/forks/ArijitDutta96395/Kshitij-2024-bots?style=social" alt="Forks">
 </p>
 
 ---
 
 ## 🏆 Achievements
-- ✅ **Secured 31st position at IIT KGP Techfest** 🎉
+
+- ✅ Participated in **KSHITIJ 2025 at IIT Kharagpur**
+- ✅ Showcased two robots: **Sand Rover** & **Droid Blitz**
+- ✅ Designed in-house with custom controllers and wireless modules
 
 ---
 
-## 📌 Project Overview
-**Sand Rover** is a custom-built semi-autonomous robotic vehicle controlled using a **self-designed 11-channel controller**.  
-It leverages **NRF24L01** modules for **long-range wireless communication**, providing high responsiveness and reliability.
+## ⚙️ Projects Overview
 
-The custom transmitter integrates:
-- **2 Joysticks** (for motion control)
-- **3 Buttons** (for extra functions)
+### 1️⃣ **Sand Rover – Rugged Load Transporter for Uneven Terrain**
 
----
-## 📸 Sand Rover With Controller
+A compact, semi-autonomous robot tailored for difficult terrain. It uses high-torque motors, Bluetooth control, and a durable frame, making it ideal for agriculture, disaster zones, and construction sites.
+
+#### 🔩 Key Features:
+- 🛞 Compact: 26.2 cm × 20.6 cm frame
+- 🔋 Powered by 2200mAh LiPo/Li-ion battery
+- 🎮 Controlled via Bluetooth & NRF24L01 module
+- 🚜 4× Johnson 300 RPM motors for high grip and torque
+- 🧠 Controlled using Arduino Uno and Nano over UART
+- 💸 Built for under ₹6400 with off-the-shelf components
+
+#### 📸 Images:
 <p align="center">
-  <img src="images/img2.png" alt="Sand Rover Robot" width="500">
+  <img src="images/img1.png" alt="Sand Rover Image" width="400">
 </p>
 
 ---
 
-## 🔧 Hardware Components
+### 2️⃣ **Droid Blitz – Amphibious Robot for Land & Water Operations**
 
-### 🖥 Microcontrollers
-- **Arduino Uno** – Main processing unit  
-- **Arduino Nano** – Manages data transmission and reception  
+Designed for the "Droid Blitz" event, this robot is engineered for seamless navigation across both land and water. Capable of performing multi-terrain tasks like block placement and package transfer, it is a testament to robotics versatility.
 
-### 📡 Communication Modules
-- **NRF24L01 (Long-Range Version)** – For wireless data transmission  
-- **UART Protocol** – For data sharing between receiver and main microcontroller  
+#### 🌊 Core Capabilities:
+- 🏞 Amphibious Navigation: Operates in water and land zones
+- 📦 Performs tasks like block bridging, object placement, and obstacle negotiation
+- 🎮 Custom-built wireless controller with joysticks and buttons
+- 🧠 Dual MCU system with Arduino Uno & Nano
+- 🚗 Motors: Johnson 300 RPM & 10 RPM pick-and-place units
+- 🔧 Enhanced with servo motors and water-resistant design
 
-### 🎮 Controller & Mechanism
-- **Custom 11-Channel Controller** – Designed from scratch for precise control  
-- **2 Joysticks** – Control direction and speed  
-- **3 Buttons** – Handle special functionalities  
-
-### ⚙️ Motor Control
-- **BTS7960 Motor Driver Modules** – For powerful and precise motor control  
-
-### 🔋 Power Supply
-- **2200mAh LiPo Battery** – Powers the entire system  
+#### 📸 Images:
+<p align="center">
+  <img src="images/img3.png" alt="Droid Blitz Image" width="400">
+</p>
 
 ---
 
-## 🎮 How It Works
-1. **Transmitter** sends signals via **NRF24L01**.
-2. **Arduino Nano (Receiver)** receives data and forwards it to **Arduino Uno** over **UART**.
-3. **Joysticks** control the direction and speed.
-4. **Buttons** trigger additional functionalities.
-5. **BTS7960 Motor Drivers** execute movement commands.
+## 🧰 Shared Components
+
+| Component                 | Sand Rover  | Droid Blitz |
+|--------------------------|-------------|-------------|
+| Arduino Uno              | ✅          | ✅          |
+| Arduino Nano             | ✅          | ✅          |
+| NRF24L01 PA+LNA          | ✅          | ✅          |
+| BTS7960 Motor Driver     | ✅ (x2)     | ✅ (x2)     |
+| Johnson Motor (300 RPM)  | ✅ (x4)     | ✅ (x4)     |
+| Servo Motor              | ❌          | ✅ (x2)     |
+| Joysticks                | ✅ (x2)     | ✅ (x2)     |
+| Push Buttons             | ✅ (x5)     | ✅ (x5)     |
+| Battery (LiPo/Li-ion)    | ✅          | ✅          |
 
 ---
 
-## 📌 Features
-- ✅ **Custom 11-Channel Controller** for advanced control
-- ✅ **Dual Joystick & Button Controls** for flexible operations
-- ✅ **Long-Range Wireless Communication** with NRF24L01
-- ✅ **Compact, Efficient & Powerful** – Runs on a 2200mAh LiPo Battery
-- ✅ **Proven in Competition** – Successfully performed at IIT KGP Techfest
+## 💡 Real-World Applications
+
+- **Sand Rover**
+  - Agricultural transport of crops and equipment
+  - Rough terrain delivery and disaster aid
+  - Industrial material handling on uneven surfaces
+
+- **Droid Blitz**
+  - Amphibious rescue missions
+  - Logistics across complex terrains
+  - Industrial & defense robotic automation
 
 ---
 
 ## 🚀 Future Enhancements
-- ➕ Advanced Speed Control using **PID algorithms**
-- ➕ **FPV Camera Integration** for real-time vision
-- ➕ **Autonomous Navigation Mode** with AI-based decision making
+
+- 🔧 **Sand Rover**
+  - PID-based speed control
+  - Sensor-based navigation and obstacle avoidance
+  - Solar panel integration for extended field operations
+
+- 🌊 **Droid Blitz**
+  - Autonomous terrain detection
+  - FPV camera for remote vision
+  - AI-based task execution modules
 
 ---
 
 ## 📜 License
+
 This project is licensed under the **MIT License**.  
 See the [LICENSE](LICENSE) file for more details.
 
 ---
 
 ## 🔧 Developed By
-**Arijit Dutta**
+
+**Arijit Dutta**  
 📅 **Last Updated:** March 21, 2025
+
 <p align="center">
-  <img src="images/img1.png" alt="My Photo" width="400">
+  <img src="images/img2.png" alt="Team Member Image" width="400">
 </p>
