@@ -36,7 +36,7 @@ A compact, semi-autonomous robot tailored for difficult terrain. It uses high-to
 
 #### 📸 Images:
 <p align="center">
-  <img src="images/img1.png" alt="Sand Rover Image" width="400">
+  <img src="images/img2.png" alt="Sand Rover Image" width="400">
 </p>
 
 ---
@@ -117,5 +117,5 @@ See the [LICENSE](LICENSE) file for more details.
 📅 **Last Updated:** March 21, 2025
 
 <p align="center">
-  <img src="images/img2.png" alt="Team Member Image" width="400">
+  <img src="images/img1.png" alt="Team Member Image" width="400">
 </p>
